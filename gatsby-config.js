@@ -1,17 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Matt Fewer - Musician & Programmer`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Matt Fewer`,
+      summary: `who lives and works in Berlin during a pandemic.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Matt Fewer's personal website where he tries to actually do stuff.`,
+    siteUrl: `http://localhost:8000`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `mattyfew`,
     },
   },
   plugins: [
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

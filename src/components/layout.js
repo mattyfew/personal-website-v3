@@ -23,6 +23,12 @@ const Layout = ({ location, title, children }) => {
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
+      <nav>
+        <Link to="/home">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/music">Music</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
